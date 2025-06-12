@@ -16,3 +16,5 @@ class ProductPageLocators():
     ADD_PRODUCT_BUTTON = (By.CLASS_NAME, "btn.btn-lg.btn-primary.btn-add-to-basket")
     PRODUCT_NAME = (By.TAG_NAME, "h1")
     PRODUCT_PRICE = (By.CLASS_NAME, "price_color")
+    PRODUCT_ADDED_MESSAGE1 = (By.CSS_SELECTOR, "div.alertinner strong")
+    PRODUCT_ADDED_MESSAGE2 = (By.CSS_SELECTOR, "div.alertinner > p strong ")
